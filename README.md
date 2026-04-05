@@ -5,7 +5,6 @@
 FinTrack Backend is a finance data processing and access control system.
 It allows users to manage financial records (income/expense), apply role-based access, and view dashboard analytics.
 
----
 
 ## Tech Stack
 
@@ -16,7 +15,6 @@ It allows users to manage financial records (income/expense), apply role-based a
 * Spring Security (basic config)
 * Swagger (OpenAPI)
 
----
 
 ## Features
 
@@ -26,13 +24,12 @@ It allows users to manage financial records (income/expense), apply role-based a
 * Validation & exception handling
 * API documentation using Swagger
 
----
 
 ## API Documentation (Swagger)
 
 Swagger UI is integrated for easy API testing and documentation.
 
-👉 Open in browser:
+ Open in browser:
 http://localhost:8080/swagger-ui/index.html
 
 ### Sample APIs
@@ -56,7 +53,7 @@ http://localhost:8080/swagger-ui/index.html
 * GET `/dashboard/summary` → Total income, expense, balance
 * GET `/dashboard/category` → Category-wise summary
 
----
+
 
 ## Screenshots
 
@@ -64,16 +61,12 @@ http://localhost:8080/swagger-ui/index.html
 
 ![Swagger UI](screenshots/swagger.png)
 
----
-
 ## How to Run
 
 1. Clone repository
 2. Configure MySQL in `application.properties`
 3. Run Spring Boot application
 4. Open Swagger UI
-
----
 
 ## Author
 
